@@ -33,13 +33,18 @@ This project is a full-stack web application developed using React on the front-
 ### Running the Back-end
 
 1. Clone the back-end repository.
-2. Install the necessary dependencies:
+2. Create a .env file in the root directory and add the environment variable for the DATABAE_URL:
+   ```bash
+   DATABASE_URL="postgresql://postgres:password@timescaledb:5432/mydatabase?schema=public"
+   ```
+3. Make sure you already have Postgresql and put the the exact root password and database_name into .env file inside place holder my password and mydatabase or leave it as it is in case you want to go with Docker option
+4. Install the necessary dependencies:
 
    ```bash
    npm install
    ```
 
-3. Start the back-end server in development mode:
+5. Start the back-end server in development mode:
 
    ```bash
    npm run start:dev
