@@ -74,6 +74,11 @@ This project includes Docker configuration files to simplify the setup process.
    sudo docker compose exec nest-app npm run prisma:migrate:dev
    ```
 
+### Credintials to Login
+
+username: john@gmail.com
+password: changeme
+
 ### Requirements
 
 - **Node.js**: Ensure that your Node.js version is greater than 20.
