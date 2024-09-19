@@ -76,7 +76,8 @@ This project includes Docker configuration files to simplify the setup process.
 
 ### Credintials to Login
 
-username: john@gmail.com
+email: john@gmail.com
+
 password: changeme
 
 ### Requirements
